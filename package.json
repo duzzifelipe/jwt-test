@@ -1,0 +1,23 @@
+{
+  "name": "jwt-test",
+  "version": "1.0.0",
+  "description": "This repository is a test of Auth0 jsonwebtoken library",
+  "scripts": {
+    "setup": "DEBUG=* node generator.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:duzzifelipe/jwt-test.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^7.2.1"
+  },
+  "devDependencies": {
+    "debug": "^2.6.0",
+    "node-rsa": "^0.4.2"
+  }
+}
